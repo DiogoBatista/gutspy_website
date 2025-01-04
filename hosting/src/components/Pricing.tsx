@@ -1,12 +1,12 @@
 'use client'
 
-import { useState } from 'react'
 import { Radio, RadioGroup } from '@headlessui/react'
 import clsx from 'clsx'
+import { useState } from 'react'
 
 import { Button } from '@/components/Button'
 import { Container } from '@/components/Container'
-import { Logomark } from '@/components/Logo'
+// import { Logomark } from '@/components/Logo'
 
 const plans = [
   {
@@ -127,7 +127,7 @@ function Plan({
           featured ? 'text-white' : 'text-gray-900',
         )}
       >
-        <Logomark className={clsx('h-6 w-6 flex-none', logomarkClassName)} />
+        {/* <Logomark className={clsx('h-6 w-6 flex-none', logomarkClassName)} /> */}
         <span className="ml-4">{name}</span>
       </h3>
       <p

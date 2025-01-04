@@ -1,6 +1,8 @@
 import headlessuiPlugin from '@headlessui/tailwindcss'
 import formsPlugin from '@tailwindcss/forms'
+import typographyPlugin from '@tailwindcss/typography'
 import { type Config } from 'tailwindcss'
+import colors from 'tailwindcss/colors'
 
 export default {
   content: ['./src/**/*.{js,jsx,ts,tsx}'],
@@ -21,6 +23,41 @@ export default {
       '9xl': ['8rem', { lineHeight: '1' }],
     },
     extend: {
+      colors: {
+        primary: {
+          DEFAULT: '#1559b6',
+          dark: '#0e3b79',
+          darker: '#071d3c'
+        },
+        background: '#fcfcfc',
+        text: {
+          DEFAULT: '#071d3c',
+          secondary: '#0e3b79',
+          light: '#fcfcfc'
+        },
+        error: '#ff4444',
+        warning: '#FFA500',
+        gray: {
+          DEFAULT: '#808080',
+          ...colors.neutral
+        },
+        digestion: {
+          solid: '#8B4513',
+          'semi-solid': '#CD853F',
+          liquid: '#DAA520',
+          normal: '#4CAF50',
+          warning: '#FFA500',
+          danger: '#FF0000'
+        }
+      },
+      spacing: {
+        xs: '4px',
+        sm: '8px',
+        md: '16px',
+        lg: '24px',
+        xl: '32px',
+        xxl: '48px'
+      },
       animation: {
         'fade-in': 'fade-in 0.5s linear forwards',
         marquee: 'marquee var(--marquee-duration) linear infinite',
@@ -34,9 +71,6 @@ export default {
         '4xl': '2rem',
         '5xl': '2.5rem',
       },
-      colors: ({ colors }) => ({
-        gray: colors.neutral,
-      }),
       fontFamily: {
         sans: 'var(--font-inter)',
       },
@@ -65,5 +99,5 @@ export default {
       },
     },
   },
-  plugins: [formsPlugin, headlessuiPlugin],
+  plugins: [formsPlugin, headlessuiPlugin, typographyPlugin],
 } satisfies Config

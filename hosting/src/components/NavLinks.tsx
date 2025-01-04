@@ -9,10 +9,8 @@ export function NavLinks() {
   let timeoutRef = useRef<number | null>(null)
 
   return [
-    ['Features', '/#features'],
-    ['Reviews', '/#reviews'],
-    ['Pricing', '/#pricing'],
-    ['FAQs', '/#faqs'],
+    ['Privacy', '/privacy'],
+    ['FAQs', '/faq'],
   ].map(([label, href], index) => (
     <Link
       key={label}

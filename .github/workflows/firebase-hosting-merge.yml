@@ -22,6 +22,7 @@ jobs:
             ${{ runner.os }}-yarn-
 
       - name: Install dependencies
+        working-directory: ./hosting
         run: yarn --frozen-lockfile
 
       - name: Build

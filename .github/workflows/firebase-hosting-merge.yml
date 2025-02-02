@@ -35,3 +35,5 @@ jobs:
           firebaseServiceAccount: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_NUTRISNAP_96CAF }}
           channelId: live
           projectId: nutrisnap-96caf
+        env:
+          FIREBASE_CLI_EXPERIMENTS: webframeworks

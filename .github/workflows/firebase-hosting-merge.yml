@@ -3,6 +3,11 @@ on:
   push:
     branches:
       - main
+permissions:
+  checks: write
+  contents: read
+  id-token: write # Required for authentication
+  pull-requests: write
 jobs:
   build_and_deploy:
     runs-on: ubuntu-latest
@@ -14,7 +19,7 @@ jobs:
         run: echo "::set-output name=dir::$(yarn cache dir)"
 
       - uses: actions/cache@v3
-        id: yarn-cache # use this to check for `cache-hit` (`steps.yarn-cache.outputs.cache-hit != 'true'`)
+        id: yarn-cache
         with:
           path: ${{ steps.yarn-cache-dir-path.outputs.dir }}
           key: ${{ runner.os }}-yarn-${{ hashFiles('**/yarn.lock') }}
@@ -28,6 +33,11 @@ jobs:
       - name: Build
         working-directory: ./hosting
         run: yarn build
+
+      - name: Authenticate to Google Cloud
+        uses: google-github-actions/auth@v1
+        with:
+          credentials_json: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_NUTRISNAP_96CAF }}'
 
       - uses: FirebaseExtended/action-hosting-deploy@v0
         with:

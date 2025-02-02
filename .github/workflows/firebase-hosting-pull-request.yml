@@ -33,10 +33,6 @@ jobs:
         working-directory: ./hosting
         run: yarn build
 
-      - name: Authenticate to Google Cloud
-        uses: google-github-actions/auth@v1
-        with:
-          credentials_json: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_NUTRISNAP_96CAF }}'
 
       - uses: FirebaseExtended/action-hosting-deploy@v0
         with:

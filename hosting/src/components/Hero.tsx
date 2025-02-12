@@ -90,13 +90,15 @@ export function Hero() {
   return (
     <div className="overflow-hidden py-20 sm:py-32 lg:pb-32 xl:pb-36">
       <Container>
-        <div className="lg:grid lg:grid-cols-12 lg:gap-x-8 lg:gap-y-20 min-h-[540px]">
+        <div className="min-h-[540px] lg:grid lg:grid-cols-12 lg:gap-x-8 lg:gap-y-20">
           <div className="relative z-10 mx-auto max-w-2xl lg:col-span-7 lg:max-w-none lg:pt-6 xl:col-span-6">
             <h1 className="text-4xl font-medium tracking-tight text-gray-900">
               Track your gut health journey.
             </h1>
             <p className="mt-6 text-lg text-gray-600">
-              Monitor your nutrition, track symptoms, and discover patterns that affect your digestive health. Get personalized insights to make informed decisions about your diet and well-being.
+              Monitor your nutrition, track symptoms, and discover patterns that
+              affect your digestive health. Get personalized insights to make
+              informed decisions about your diet and well-being.
             </p>
             <div className="mt-8 flex flex-wrap gap-x-6 gap-y-4">
               <AppStoreLink />
@@ -107,7 +109,7 @@ export function Hero() {
             <div className="-mx-4 h-[748px] px-9 [mask-image:linear-gradient(to_bottom,white_60%,transparent)] sm:mx-0 lg:absolute lg:-inset-x-10 lg:-bottom-20 lg:-top-10 lg:h-auto lg:px-0 lg:pt-10 xl:-bottom-32">
               <PhoneFrame className="mx-auto max-w-[366px]" priority>
                 <Image
-                  src={'/images/daily-log.jpg'}
+                  src={'/images/daily-log.png'}
                   alt="Daily Log image"
                   width={366}
                   height={748}

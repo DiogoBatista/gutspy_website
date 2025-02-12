@@ -1,3 +1,4 @@
+import Image from 'next/image'
 import React from 'react'
 
 interface LogoProps extends React.HTMLAttributes<HTMLDivElement> {
@@ -5,26 +6,15 @@ interface LogoProps extends React.HTMLAttributes<HTMLDivElement> {
 }
 
 export function Logo({ size = 'large', className, ...props }: LogoProps) {
-  const getFontSize = () => {
-    switch (size) {
-      case 'small':
-        return 'text-2xl'
-      case 'medium':
-        return 'text-4xl'
-      case 'large':
-        return 'text-5xl'
-      default:
-        return 'text-5xl'
-    }
-  }
-
   return (
     <div className={className} {...props}>
-      <span
-        className={`${getFontSize()} font-extrabold tracking-widest text-primary`}
-      >
-        GUTSPY
-      </span>
+      <Image
+        priority
+        src="/images/gutspy_name.svg"
+        height={45}
+        width={180}
+        alt="GutSpy Logo"
+      />
     </div>
   )
 }

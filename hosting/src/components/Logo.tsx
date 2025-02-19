@@ -7,14 +7,16 @@ interface LogoProps extends React.HTMLAttributes<HTMLDivElement> {
 
 export function Logo({ size = 'large', className, ...props }: LogoProps) {
   return (
-    <div className={className} {...props}>
+    <div className="flex items-center gap-2" {...props}>
       <Image
+        className="rounded-lg"
         priority
-        src="/images/gutspy_name.svg"
+        src="/images/gutspy-1024.jpg"
         height={45}
-        width={180}
+        width={50}
         alt="GutSpy Logo"
       />
+      <span className="text-sm font-bold text-gray-900">GutSpy</span>
     </div>
   )
 }

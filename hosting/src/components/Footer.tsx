@@ -2,7 +2,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import { Container } from '@/components/Container'
 import { NavLinks } from '@/components/NavLinks'
-import qrCode from '@/images/qr-code.svg'
+import qrCode from '@/images/qr-code.png'
 import { Logo } from './Logo'
 
 function QrCodeBorder(props: React.ComponentPropsWithoutRef<'svg'>) {
@@ -64,7 +64,8 @@ export function Footer() {
             </Button>
           </form> */}
           <p className="mt-6 text-sm text-gray-500 md:mt-0">
-            GutSpy &copy; Copyright {new Date().getFullYear()}. All rights reserved.
+            GutSpy &copy; Copyright {new Date().getFullYear()}. All rights
+            reserved.
           </p>
         </div>
       </Container>

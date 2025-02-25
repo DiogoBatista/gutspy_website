@@ -8,7 +8,7 @@ export function AppStoreLink({
 }) {
   return (
     <Link
-      href="#"
+      href="https://apple.co/43azHhK"
       aria-label="Download on the App Store"
       className={clsx(
         'rounded-lg transition-colors',

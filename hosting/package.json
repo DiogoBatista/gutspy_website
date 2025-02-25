@@ -4,7 +4,8 @@
     "dev": "next dev --turbopack --port 3080",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "deploy": "next build && firebase deploy --only hosting"
   },
   "browserslist": "defaults, not ie <= 11",
   "dependencies": {

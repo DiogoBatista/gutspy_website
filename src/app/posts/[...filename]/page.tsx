@@ -1,13 +1,11 @@
-import Post from './client-page'
 import client from '../../../../tina/__generated__/client'
+import Post from './client-page'
 
 export async function generateStaticParams() {
   const pages = await client.queries.postConnection()
-  console.log('Generated paths:', pages.data?.postConnection?.edges)
   const paths = pages.data?.postConnection?.edges?.map((edge) => ({
     filename: edge?.node?._sys.breadcrumbs,
   }))
-  console.log('Mapped paths:', paths)
   return paths || []
 }
 

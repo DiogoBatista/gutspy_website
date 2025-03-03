@@ -1,0 +1,170 @@
+[debug] [2025-01-04T16:30:55.027Z] ----------------------------------------------------------------------
+[debug] [2025-01-04T16:30:55.028Z] Command:       /Users/diogobatista/.nvm/versions/node/v18.20.2/bin/node /Users/diogobatista/.nvm/versions/node/v18.20.2/bin/firebase deploy
+[debug] [2025-01-04T16:30:55.029Z] CLI Version:   13.8.3
+[debug] [2025-01-04T16:30:55.030Z] Platform:      darwin
+[debug] [2025-01-04T16:30:55.030Z] Node Version:  v18.20.2
+[debug] [2025-01-04T16:30:55.032Z] Time:          Sat Jan 04 2025 16:30:55 GMT+0000 (Western European Standard Time)
+[debug] [2025-01-04T16:30:55.032Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2025-01-04T16:30:55.178Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-01-04T16:30:55.179Z] > authorizing via signed-in user (diogobv.batista@gmail.com)
+[debug] [2025-01-04T16:30:55.179Z] [iam] checking project nutrisnap-96caf for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2025-01-04T16:30:55.181Z] > refreshing access token with scopes: []
+[debug] [2025-01-04T16:30:55.183Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2025-01-04T16:30:55.184Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2025-02-12T21:06:06.608Z] ----------------------------------------------------------------------
+[debug] [2025-02-12T21:06:06.609Z] Command:       /Users/diogobatista/.nvm/versions/node/v18.20.2/bin/node /Users/diogobatista/.nvm/versions/node/v18.20.2/bin/firebase deploy --only hosting
+[debug] [2025-02-12T21:06:06.610Z] CLI Version:   13.29.1
+[debug] [2025-02-12T21:06:06.610Z] Platform:      darwin
+[debug] [2025-02-12T21:06:06.611Z] Node Version:  v18.20.2
+[debug] [2025-02-12T21:06:06.613Z] Time:          Wed Feb 12 2025 21:06:06 GMT+0000 (Western European Standard Time)
+[debug] [2025-02-12T21:06:06.613Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2025-02-12T21:06:06.714Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-02-12T21:06:06.716Z] > authorizing via signed-in user (diogobv.batista@gmail.com)
+[debug] [2025-02-12T21:06:06.716Z] [iam] checking project nutrisnap-96caf for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2025-02-12T21:06:06.718Z] Checked if tokens are valid: false, expires at: 1739394735428
+[debug] [2025-02-12T21:06:06.719Z] Checked if tokens are valid: false, expires at: 1739394735428
+[debug] [2025-02-12T21:06:06.719Z] > refreshing access token with scopes: []
+[debug] [2025-02-12T21:06:06.721Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2025-02-12T21:06:06.723Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2025-02-12T21:06:06.918Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2025-02-12T21:06:06.920Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2025-02-12T21:06:06.939Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/nutrisnap-96caf:testIamPermissions [none]
+[debug] [2025-02-12T21:06:06.940Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/nutrisnap-96caf:testIamPermissions x-goog-quota-user=projects/nutrisnap-96caf
+[debug] [2025-02-12T21:06:06.940Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/nutrisnap-96caf:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2025-03-03T18:36:36.956Z] ----------------------------------------------------------------------
+[debug] [2025-03-03T18:36:36.957Z] Command:       /Users/diogobatista/.nvm/versions/node/v18.20.2/bin/node /Users/diogobatista/.nvm/versions/node/v18.20.2/bin/firebase deploy --only hosting
+[debug] [2025-03-03T18:36:36.958Z] CLI Version:   13.29.1
+[debug] [2025-03-03T18:36:36.959Z] Platform:      darwin
+[debug] [2025-03-03T18:36:36.959Z] Node Version:  v18.20.2
+[debug] [2025-03-03T18:36:36.960Z] Time:          Mon Mar 03 2025 18:36:36 GMT+0000 (Western European Standard Time)
+[debug] [2025-03-03T18:36:36.960Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2025-03-03T18:36:36.967Z] >>> [apiv2][query] GET https://firebase-public.firebaseio.com/cli.json [none]
+[debug] [2025-03-03T18:36:37.135Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-03-03T18:36:37.137Z] > authorizing via signed-in user (diogobv.batista@gmail.com)
+[debug] [2025-03-03T18:36:37.138Z] [iam] checking project nutrisnap-96caf for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2025-03-03T18:36:37.139Z] Checked if tokens are valid: false, expires at: 1740496719444
+[debug] [2025-03-03T18:36:37.139Z] Checked if tokens are valid: false, expires at: 1740496719444
+[debug] [2025-03-03T18:36:37.140Z] > refreshing access token with scopes: []
+[debug] [2025-03-03T18:36:37.141Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2025-03-03T18:36:37.142Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2025-03-03T18:36:37.290Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2025-03-03T18:36:37.293Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2025-03-03T18:36:37.337Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/nutrisnap-96caf:testIamPermissions [none]
+[debug] [2025-03-03T18:36:37.338Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/nutrisnap-96caf:testIamPermissions x-goog-quota-user=projects/nutrisnap-96caf
+[debug] [2025-03-03T18:36:37.338Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/nutrisnap-96caf:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2025-03-03T18:36:37.405Z] <<< [apiv2][status] GET https://firebase-public.firebaseio.com/cli.json 200
+[debug] [2025-03-03T18:36:37.405Z] <<< [apiv2][body] GET https://firebase-public.firebaseio.com/cli.json {"cloudBuildErrorAfter":1594252800000,"cloudBuildWarnAfter":1590019200000,"defaultNode10After":1594252800000,"minVersion":"3.0.5","node8DeploysDisabledAfter":1613390400000,"node8RuntimeDisabledAfter":1615809600000,"node8WarnAfter":1600128000000}
+[debug] [2025-03-03T18:36:38.260Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/nutrisnap-96caf:testIamPermissions 200
+[debug] [2025-03-03T18:36:38.262Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/nutrisnap-96caf:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2025-03-03T18:36:38.263Z] Checked if tokens are valid: true, expires at: 1741030596293
+[debug] [2025-03-03T18:36:38.263Z] Checked if tokens are valid: true, expires at: 1741030596293
+[debug] [2025-03-03T18:36:38.263Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/nutrisnap-96caf [none]
+[debug] [2025-03-03T18:36:38.828Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/nutrisnap-96caf 200
+[debug] [2025-03-03T18:36:38.830Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/nutrisnap-96caf {"projectId":"nutrisnap-96caf","projectNumber":"219792179519","displayName":"Gutspy","name":"projects/nutrisnap-96caf","resources":{"hostingSite":"nutrisnap-96caf","realtimeDatabaseInstance":"nutrisnap-96caf-default-rtdb","locationId":"us-central"},"state":"ACTIVE","etag":"1_d1e986f2-66c5-4fc1-a15e-73bf58d9d823"}
+[info] 
+   Thank you for trying our early preview of Next.js support on Firebase Hosting.
+   During the preview, support is best-effort and breaking changes can be expected. Proceed with caution.
+   The integration is known to work with Next.js version 12 - 15.0. You may encounter errors.
+
+   Documentation: https://firebase.google.com/docs/hosting/frameworks/nextjs
+   File a bug: https://github.com/firebase/firebase-tools/issues/new?template=bug_report.md
+   Submit a feature request: https://github.com/firebase/firebase-tools/issues/new?template=feature_request.md
+
+   We'd love to learn from you. Express your interest in helping us shape the future of Firebase Hosting: https://goo.gle/41enW5X
+
+[debug] [2025-03-03T18:36:57.070Z] Checked if tokens are valid: true, expires at: 1741030596293
+[debug] [2025-03-03T18:36:57.074Z] Checked if tokens are valid: true, expires at: 1741030596293
+[debug] [2025-03-03T18:36:57.075Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/nutrisnap-96caf/sites/nutrisnap-96caf [none]
+[debug] [2025-03-03T18:36:58.260Z] <<< [apiv2][status] GET https://firebasehosting.googleapis.com/v1beta1/projects/nutrisnap-96caf/sites/nutrisnap-96caf 200
+[debug] [2025-03-03T18:36:58.266Z] <<< [apiv2][body] GET https://firebasehosting.googleapis.com/v1beta1/projects/nutrisnap-96caf/sites/nutrisnap-96caf {"name":"projects/nutrisnap-96caf/sites/nutrisnap-96caf","defaultUrl":"https://nutrisnap-96caf.web.app","appId":"1:219792179519:web:a3f0882887a79ca03b138a","type":"DEFAULT_SITE"}
+[info]    ▲ Next.js 15.1.3
+
+[info] 
+
+[info]    Creating an optimized production build ...
+
+[info]  ✓ Compiled successfully
+
+[info]    Linting and checking validity of types ...
+
+[info] Failed to compile.
+
+
+[info] src/app/posts/[...filename]/page.tsx
+Type error: Type '{ params: { filename: string[]; }; }' does not satisfy the constraint 'PageProps'.
+  Types of property 'params' are incompatible.
+    Type '{ filename: string[]; }' is missing the following properties from type 'Promise<any>': then, catch, finally, [Symbol.toStringTag]
+
+
+[info] Static worker exited with code: 1 and signal: null
+
+[debug] [2025-03-03T18:37:30.055Z] Error: ENOENT: no such file or directory, open '/Users/diogobatista/Projects/gutspy/gutspy_website/hosting/.next/export-marker.json'
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2025-03-03T18:39:29.764Z] ----------------------------------------------------------------------
+[debug] [2025-03-03T18:39:29.766Z] Command:       /Users/diogobatista/.nvm/versions/node/v18.20.2/bin/node /Users/diogobatista/.nvm/versions/node/v18.20.2/bin/firebase deploy --only hosting
+[debug] [2025-03-03T18:39:29.766Z] CLI Version:   13.29.1
+[debug] [2025-03-03T18:39:29.767Z] Platform:      darwin
+[debug] [2025-03-03T18:39:29.767Z] Node Version:  v18.20.2
+[debug] [2025-03-03T18:39:29.769Z] Time:          Mon Mar 03 2025 18:39:29 GMT+0000 (Western European Standard Time)
+[debug] [2025-03-03T18:39:29.769Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2025-03-03T18:39:29.870Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-03-03T18:39:29.872Z] > authorizing via signed-in user (diogobv.batista@gmail.com)
+[debug] [2025-03-03T18:39:29.872Z] [iam] checking project nutrisnap-96caf for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2025-03-03T18:39:29.874Z] Checked if tokens are valid: true, expires at: 1741030596293
+[debug] [2025-03-03T18:39:29.875Z] Checked if tokens are valid: true, expires at: 1741030596293
+[debug] [2025-03-03T18:39:29.876Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/nutrisnap-96caf:testIamPermissions [none]
+[debug] [2025-03-03T18:39:29.877Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/nutrisnap-96caf:testIamPermissions x-goog-quota-user=projects/nutrisnap-96caf
+[debug] [2025-03-03T18:39:29.877Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/nutrisnap-96caf:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2025-03-03T18:39:31.015Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/nutrisnap-96caf:testIamPermissions 200
+[debug] [2025-03-03T18:39:31.017Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/nutrisnap-96caf:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2025-03-03T18:39:31.018Z] Checked if tokens are valid: true, expires at: 1741030596293
+[debug] [2025-03-03T18:39:31.019Z] Checked if tokens are valid: true, expires at: 1741030596293
+[debug] [2025-03-03T18:39:31.020Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/nutrisnap-96caf [none]
+[debug] [2025-03-03T18:39:31.324Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/nutrisnap-96caf 200
+[debug] [2025-03-03T18:39:31.326Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/nutrisnap-96caf {"projectId":"nutrisnap-96caf","projectNumber":"219792179519","displayName":"Gutspy","name":"projects/nutrisnap-96caf","resources":{"hostingSite":"nutrisnap-96caf","realtimeDatabaseInstance":"nutrisnap-96caf-default-rtdb","locationId":"us-central"},"state":"ACTIVE","etag":"1_d1e986f2-66c5-4fc1-a15e-73bf58d9d823"}
+[info] 
+   Thank you for trying our early preview of Next.js support on Firebase Hosting.
+   During the preview, support is best-effort and breaking changes can be expected. Proceed with caution.
+   The integration is known to work with Next.js version 12 - 15.0. You may encounter errors.
+
+   Documentation: https://firebase.google.com/docs/hosting/frameworks/nextjs
+   File a bug: https://github.com/firebase/firebase-tools/issues/new?template=bug_report.md
+   Submit a feature request: https://github.com/firebase/firebase-tools/issues/new?template=feature_request.md
+
+   We'd love to learn from you. Express your interest in helping us shape the future of Firebase Hosting: https://goo.gle/41enW5X
+
+[debug] [2025-03-03T18:39:49.414Z] Checked if tokens are valid: true, expires at: 1741030596293
+[debug] [2025-03-03T18:39:49.418Z] Checked if tokens are valid: true, expires at: 1741030596293
+[debug] [2025-03-03T18:39:49.419Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/nutrisnap-96caf/sites/nutrisnap-96caf [none]
+[debug] [2025-03-03T18:39:50.439Z] <<< [apiv2][status] GET https://firebasehosting.googleapis.com/v1beta1/projects/nutrisnap-96caf/sites/nutrisnap-96caf 200
+[debug] [2025-03-03T18:39:50.445Z] <<< [apiv2][body] GET https://firebasehosting.googleapis.com/v1beta1/projects/nutrisnap-96caf/sites/nutrisnap-96caf {"name":"projects/nutrisnap-96caf/sites/nutrisnap-96caf","defaultUrl":"https://nutrisnap-96caf.web.app","appId":"1:219792179519:web:a3f0882887a79ca03b138a","type":"DEFAULT_SITE"}
+[info]    ▲ Next.js 15.1.3
+
+[info]    - Environments: .env
+
+
+[info]    Creating an optimized production build ...
+
+[info]  ✓ Compiled successfully
+
+[info]    Linting and checking validity of types ...
+
+[info] Failed to compile.
+
+
+[info] src/app/posts/[...filename]/page.tsx
+Type error: Type '{ params: { filename: string[]; }; }' does not satisfy the constraint 'PageProps'.
+  Types of property 'params' are incompatible.
+    Type '{ filename: string[]; }' is missing the following properties from type 'Promise<any>': then, catch, finally, [Symbol.toStringTag]
+
+
+[info] Static worker exited with code: 1 and signal: null
+
+[debug] [2025-03-03T18:40:19.036Z] Error: ENOENT: no such file or directory, open '/Users/diogobatista/Projects/gutspy/gutspy_website/hosting/.next/export-marker.json'
+[error] 
+[error] Error: An unexpected error has occurred.

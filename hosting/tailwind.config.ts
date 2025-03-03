@@ -5,7 +5,11 @@ import { type Config } from 'tailwindcss'
 import colors from 'tailwindcss/colors'
 
 export default {
-  content: ['./src/**/*.{js,jsx,ts,tsx}'],
+  content: [
+    './src/pages/**/*.{js,ts,jsx,tsx,mdx}',
+    './src/components/**/*.{js,ts,jsx,tsx,mdx}',
+    './src/app/**/*.{js,ts,jsx,tsx,mdx}',
+  ],
   theme: {
     fontSize: {
       xs: ['0.75rem', { lineHeight: '1rem' }],
@@ -27,19 +31,19 @@ export default {
         primary: {
           DEFAULT: '#1559b6',
           dark: '#0e3b79',
-          darker: '#071d3c'
+          darker: '#071d3c',
         },
         background: '#fcfcfc',
         text: {
           DEFAULT: '#071d3c',
           secondary: '#0e3b79',
-          light: '#fcfcfc'
+          light: '#fcfcfc',
         },
         error: '#ff4444',
         warning: '#FFA500',
         gray: {
           DEFAULT: '#808080',
-          ...colors.neutral
+          ...colors.neutral,
         },
         digestion: {
           solid: '#8B4513',
@@ -47,8 +51,13 @@ export default {
           liquid: '#DAA520',
           normal: '#4CAF50',
           warning: '#FFA500',
-          danger: '#FF0000'
-        }
+          danger: '#FF0000',
+        },
+        backgroundImage: {
+          'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
+          'gradient-conic':
+            'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+        },
       },
       spacing: {
         xs: '4px',
@@ -56,7 +65,7 @@ export default {
         md: '16px',
         lg: '24px',
         xl: '32px',
-        xxl: '48px'
+        xxl: '48px',
       },
       animation: {
         'fade-in': 'fade-in 0.5s linear forwards',

@@ -9,15 +9,9 @@ export async function generateStaticParams() {
   return paths || []
 }
 
-export default async function PostPage({
-  params,
-}: {
-  params: { filename: string[] }
-}) {
-  // Ensure params is resolved before using it
-  const filename = await Promise.resolve(params.filename)
+export default async function PostPage({ params }: any) {
   const data = await client.queries.post({
-    relativePath: `${filename.join('/')}.md`,
+    relativePath: `${params.filename.join('/')}.md`,
   })
 
   return <Post {...data} />

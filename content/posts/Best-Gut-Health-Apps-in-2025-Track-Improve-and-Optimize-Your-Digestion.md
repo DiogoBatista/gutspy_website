@@ -89,4 +89,6 @@ Gut health is a crucial part of overall well-being, and the best gut health apps
 
 If you're ready to take control of your gut health, start with GutSpy today and see how simple tracking can lead to big improvements.
 
-👉 Download GutSpy: [App Store Link](https://apps.apple.com/us/app/gutspy/id6740040702)
+👉 Download GutSpy: [App Store Link\
+](https://apps.apple.com/us/app/gutspy/id6740040702)\
+Photo by [Element5 Digital](https://unsplash.com/@element5digital?utm_content=creditCopyText\&utm_medium=referral\&utm_source=unsplash) on [Unsplash](https://unsplash.com/photos/photo-of-three-orange-fruits-acrBf9BlfvE?utm_content=creditCopyText\&utm_medium=referral\&utm_source=unsplash)

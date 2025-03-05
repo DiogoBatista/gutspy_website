@@ -5,7 +5,7 @@ description: >-
   changes, and mindful habits.
 date: '2025-03-02'
 author: GutSpy
-imageUrl: /190208-ramen-horizontal-063-1550014435.jpeg
+imageUrl: /jannis-brandt-mmsQUgMLqUo-unsplash.jpg
 category: nutrition
 ---
 
@@ -79,4 +79,6 @@ Tracking how different foods make you feel can provide insights into your gut he
 
 #### Final Thoughts
 
-Improving gut health naturally is a long-term process that involves dietary changes, lifestyle adjustments, and mindful eating habits. By incorporating these simple yet effective strategies, you can support your gut microbiome and enjoy better digestion, higher energy levels, and overall well-being.Want to take control of your gut health? [Download GutSpy](https://apple.co/43azHhK) and start tracking your digestion today!
+Improving gut health naturally is a long-term process that involves dietary changes, lifestyle adjustments, and mindful eating habits. By incorporating these simple yet effective strategies, you can support your gut microbiome and enjoy better digestion, higher energy levels, and overall well-being.Want to take control of your gut health? [Download GutSpy](https://apple.co/43azHhK) and start tracking your digestion today!\
+\
+Photo by [Jannis Brandt](https://unsplash.com/@jannisbrandt?utm_content=creditCopyText\&utm_medium=referral\&utm_source=unsplash) on [Unsplash](https://unsplash.com/photos/flat-lay-photography-of-fruits-on-plate-mmsQUgMLqUo?utm_content=creditCopyText\&utm_medium=referral\&utm_source=unsplash)

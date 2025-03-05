@@ -8,7 +8,7 @@ description: >-
   easier than ever to take control of your digestion.
 date: 05-03-2025
 author: GutSpy
-imageUrl: /Add a heading.png
+imageUrl: /Add a heading (1).png
 category: health
 ---
 

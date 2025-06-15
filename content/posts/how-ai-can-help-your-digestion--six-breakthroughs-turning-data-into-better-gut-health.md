@@ -92,9 +92,4 @@ Ready to put algorithmic insight to work? **[Download GutSpy](https://apple.co/4
 
 ***
 
-```html
-Image by <a
-  href="https://pixabay.com/users/surajgupt-27135425/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=8604074">suraj
-  gputa</a> from <a
-  href="https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=8604074">Pixabay</a>
-```
+Image by [suraj](https://pixabay.com/users/surajgupt-27135425/?utm_source=link-attribution\&utm_medium=referral\&utm_campaign=image\&utm_content=8604074) from [Pixabay](https://pixabay.com//?utm_source=link-attribution\&utm_medium=referral\&utm_campaign=image\&utm_content=8604074)

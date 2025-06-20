@@ -17,6 +17,21 @@ export const metadata: Metadata = {
     default: 'GutSpy - Your gut health assistant.',
   },
   description: 'GutSpy is a tool that helps you understand your gut health.',
+  keywords: [
+    'digestive health',
+    'bowel movement tracker',
+    'digestion tracker',
+    'gut health app',
+    'general wellness',
+    'IBS / Digestive Issues',
+    'food sensitivity tracker',
+    'constipation tracker',
+    'bloating tracker',
+    'ibs tracker',
+    'poop log',
+    'track bowel movements',
+    'stool tracker',
+  ],
   icons: {
     icon: [
       { url: '/favicon.ico' },

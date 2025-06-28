@@ -26,18 +26,6 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
       priority: 1,
     },
     {
-      url: `${baseUrl}/login`,
-      lastModified: new Date(),
-      changeFrequency: 'monthly' as ChangeFreq,
-      priority: 0.8,
-    },
-    {
-      url: `${baseUrl}/register`,
-      lastModified: new Date(),
-      changeFrequency: 'monthly' as ChangeFreq,
-      priority: 0.8,
-    },
-    {
       url: `${baseUrl}/faq`,
       lastModified: new Date(),
       changeFrequency: 'monthly' as ChangeFreq,
@@ -53,6 +41,43 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
       url: `${baseUrl}/posts`,
       lastModified: new Date(),
       changeFrequency: 'weekly' as ChangeFreq,
+      priority: 0.8,
+    },
+    // Feature pages
+    {
+      url: `${baseUrl}/features/ai-food-scanner`,
+      lastModified: new Date(),
+      changeFrequency: 'monthly' as ChangeFreq,
+      priority: 0.8,
+    },
+    {
+      url: `${baseUrl}/features/macro-counter`,
+      lastModified: new Date(),
+      changeFrequency: 'monthly' as ChangeFreq,
+      priority: 0.8,
+    },
+    {
+      url: `${baseUrl}/features/caloric-goals`,
+      lastModified: new Date(),
+      changeFrequency: 'monthly' as ChangeFreq,
+      priority: 0.8,
+    },
+    {
+      url: `${baseUrl}/features/digestion-ai-tracker`,
+      lastModified: new Date(),
+      changeFrequency: 'monthly' as ChangeFreq,
+      priority: 0.8,
+    },
+    {
+      url: `${baseUrl}/features/water-intake`,
+      lastModified: new Date(),
+      changeFrequency: 'monthly' as ChangeFreq,
+      priority: 0.8,
+    },
+    {
+      url: `${baseUrl}/features/progress-analysis`,
+      lastModified: new Date(),
+      changeFrequency: 'monthly' as ChangeFreq,
       priority: 0.8,
     },
   ]

@@ -1,8 +1,13 @@
 ---
 title: Why Gut Health Is the Key to Your Overall Well-Being
-description: '  Your gut is more than a digestive organ—it''s a powerful control center that shapes your immunity, mood, metabolism, and more. In this post, we explore the science behind the gut microbiome and share practical steps to improve your well-being through gut health.'
+description: >-
+  Your gut is more than a digestive organ—it's a powerful control center that
+  shapes your immunity, mood, metabolism, and more. In this post, we explore the
+  science behind the gut microbiome and share practical steps to improve your
+  well-being through gut health.
 date: 07-02-2025
 author: GutSpy
+imageUrl: /gut-heatlh-person.png
 category: health
 ---
 
@@ -44,13 +49,13 @@ Diet isn’t the only lever. **Cardio workouts like running or cycling increase 
 
 ## 7 · Five Ways to Build a Happier Gut
 
-| Habit                        | Why it Works                                    | Quick Start                                 |
-| ---------------------------- | ----------------------------------------------- | ------------------------------------------- |
-| **Eat 30+ plant foods/week** | Diverse fibers feed a wider array of good bugs. | Rotate grains, veggies, nuts, seeds.        |
-| **Add fermented staples**    | Live cultures top-up friendly strains.          | 2 Tbsp kimchi / kefir daily.                |
-| **Move 150 min/week**        | Endurance exercise boosts butyrate makers.      | Three 50-min brisk walks or cycles.         |
-| **Prioritise sleep (7-9 h)** | Microbes follow your circadian rhythm.          | Same bedtime, dark room.                    |
-| **Manage stress**            | Cortisol reshapes microbiome in 48 h.           | Breathwork, meditation, or yoga 10 min/day. |
+| Habit                        | Why it Works                                    | Quick Start                                  |
+| ---------------------------- | ----------------------------------------------- | -------------------------------------------- |
+| **Eat 30+ plant foods/week** | Diverse fibers feed a wider array of good bugs. | Rotate grains, veggies, nuts, seeds.         |
+| **Add fermented staples**    | Live cultures top-up friendly strains.          | 2 Tbsp kimchi / kefir daily.                 |
+| **Move 150 min/week**        | Endurance exercise boosts butyrate makers.      | Three 50-min brisk walks or cycles.          |
+| **Prioritise sleep (7-9 h)** | Microbes follow your circadian rhythm.          | Same bedtime, dark room.                     |
+| **Manage stress**            | Cortisol reshapes microbiome in 48 h.           | Breath work, meditation, or yoga 10 min/day. |
 
 ***
 

@@ -94,7 +94,3 @@ Ready to turn insights into action? **[Download GutSpy](https://apple.co/43azHhK
    [pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC11479700/)
 4. Ducharme J. *The secret to a healthier gut? More exercise, science shows.* Health.com. 2025.\
    [health.com](https://www.health.com/exercise-gut-health-microbiome-research-11758399)
-
-***
-
-*GutSpy never sells your health data. All uploads are end-to-end encrypted. Questions? Reply here or tap **Help → FAQs** in the app.*

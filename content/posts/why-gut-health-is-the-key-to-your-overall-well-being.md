@@ -66,7 +66,7 @@ GutSpy turns those guidelines into *measurable* habits:
 | Watch gut-symptom links | **Digestion AI Tracker** grades stool photos and trends Bristol scores over time. |
 | Spot long-term patterns | **Week/Month/Year graphs** surface plate-to-poop correlations you might miss.     |
 
-Ready to turn insights into action? **[Download GutSpy](https://apps.apple.com/app/id000000)** and let your gut guide the rest.
+Ready to turn insights into action? **[Download GutSpy](https://apple.co/43azHhK)** and let your gut guide the rest.
 
 ***
 

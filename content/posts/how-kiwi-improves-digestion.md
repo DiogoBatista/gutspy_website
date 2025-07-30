@@ -1,7 +1,7 @@
 ---
 title: How Kiwi improves digestion
 description: Kiwi is one of the best foods to regulate the digestion
-date: 07/30/25 02:22AM
+date: 07/30/25
 tags: ["gut-health", "food", "digestion", "gutspy"]
 author: GutSpy
 category: health

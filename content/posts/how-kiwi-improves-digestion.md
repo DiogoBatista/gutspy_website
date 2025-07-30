@@ -1,9 +1,14 @@
 ---
+tags:
+  - gut-health
+  - food
+  - digestion
+  - gutspy
 title: How Kiwi improves digestion
 description: Kiwi is one of the best foods to regulate the digestion
 date: 07/30/25
-tags: ["gut-health", "food", "digestion", "gutspy"]
 author: GutSpy
+imageUrl: /fresh-kiwi-fruit-slices-closeup-macro-background-photo.jpg
 category: health
 ---
 
@@ -22,6 +27,7 @@ What makes kiwi particularly unique is its enzyme, actinidin. This protease enzy
 ## A Nutritional Powerhouse
 
 Kiwi is not only beneficial for digestion; it is also a powerhouse of vitamins and minerals. Each bite is loaded with:
+
 * **Vitamin C**: Boosts your immune system and promotes healthy skin.
 * **Vitamin K**: Essential for blood clotting and bone health.
 * **Potassium**: Helps maintain healthy blood pressure levels.
@@ -35,11 +41,12 @@ A healthy gut microbiome is essential for effective digestion, and kiwi plays a 
 
 ### The Anti-Inflammatory Benefits
 
-Kiwi is rich in antioxidants, particularly vitamin C and polyphenols, which combat oxidative stress and inflammation in the body. Reducing inflammation can alleviate gastrointestinal discomfort and support a healthier digestive tract. 
+Kiwi is rich in antioxidants, particularly vitamin C and polyphenols, which combat oxidative stress and inflammation in the body. Reducing inflammation can alleviate gastrointestinal discomfort and support a healthier digestive tract.
 
 ## How to Enjoy Kiwi
 
 Adding kiwi to your diet is easy and versatile:
+
 * **Smoothies**: Blend kiwi with spinach, banana, and yogurt for a deliciously creamy treat.
 * **Salads**: Toss slices of kiwi into your salads for a burst of flavor and nutrition.
 * **Salsas**: Mix diced kiwi with tomatoes, onions, and cilantro for a refreshing salsa that pairs well with grilled meats or fish.

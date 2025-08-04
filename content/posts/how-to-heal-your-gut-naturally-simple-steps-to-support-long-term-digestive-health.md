@@ -68,7 +68,7 @@ Natural healing is a **process**, not a switch. Most people need **4–8 weeks**
 Clarity beats guesswork. Use **GutSpy** to:
 
 * Log meals, fiber intake, ferments, and hydration
-* Track stress, sleep, and movement alongside symptoms
+* Track bowel movement alongside symptoms
 * Record stool form with the **Bristol Stool Chart** and note urgency or pain
 * Spot trends (e.g., “late coffee + short sleep → next-day bloating”)
 * Export reports for your clinician to accelerate care

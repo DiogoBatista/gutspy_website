@@ -1,6 +1,7 @@
 ---
-title: How to Heal Your Gut Naturally: Simple Steps to Support Long-Term Digestive Health
-description: This article will guide readers through natural, evidence-based ways to support and restore gut health—without over-relying on medications or quick fixes. It covers what gut health means, common signs of imbalance, and practical strategies—from diet and stress reduction to probiotics, hydration, and sleep—plus how to track what works with GutSpy.
+title: 'How to Heal Your Gut Naturally: Simple Steps to Support Long-Term Digestive Health'
+description: >- 
+    This article will guide readers through natural, evidence-based ways to support and restore gut health—without over-relying on medications or quick fixes. It covers what gut health means, common signs of imbalance, and practical strategies—from diet and stress reduction to probiotics, hydration, and sleep—plus how to track what works with GutSpy.
 date: 08/05/25
 author: GutSpy
 category: health

@@ -1,5 +1,27 @@
 import { Layout } from '@/components/Layout'
+import { Metadata } from 'next'
 import Image from 'next/image'
+
+export const metadata: Metadata = {
+  title: 'Progress Analysis - GutSpy',
+  description:
+    'Analyze your caloric intake with weekly, monthly, and yearly graphs. Visualize your progress and stay motivated on your health journey.',
+  openGraph: {
+    title: 'Progress Analysis - GutSpy',
+    description:
+      'Analyze your caloric intake with weekly, monthly, and yearly graphs. Visualize your progress and stay motivated on your health journey.',
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Progress Analysis - GutSpy',
+    description:
+      'Analyze your caloric intake with weekly, monthly, and yearly graphs. Visualize your progress and stay motivated on your health journey.',
+  },
+  alternates: {
+    canonical: 'https://www.gutspy.com/features/progress-analysis',
+  },
+}
 
 export default function ProgressAnalysisPage() {
   return (

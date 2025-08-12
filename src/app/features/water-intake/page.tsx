@@ -1,5 +1,27 @@
 import { Layout } from '@/components/Layout'
+import { Metadata } from 'next'
 import Image from 'next/image'
+
+export const metadata: Metadata = {
+  title: 'Water Intake Tracker - GutSpy',
+  description:
+    'Log your daily water intake and stay hydrated. Easily track your progress and build healthy hydration habits.',
+  openGraph: {
+    title: 'Water Intake Tracker - GutSpy',
+    description:
+      'Log your daily water intake and stay hydrated. Easily track your progress and build healthy hydration habits.',
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Water Intake Tracker - GutSpy',
+    description:
+      'Log your daily water intake and stay hydrated. Easily track your progress and build healthy hydration habits.',
+  },
+  alternates: {
+    canonical: 'https://www.gutspy.com/features/water-intake',
+  },
+}
 
 export default function WaterIntakePage() {
   return (

@@ -1,5 +1,27 @@
 import { Layout } from '@/components/Layout'
+import { Metadata } from 'next'
 import Image from 'next/image'
+
+export const metadata: Metadata = {
+  title: 'AI Food Scanner - GutSpy',
+  description:
+    'Snap a picture or upload your meal and get instant, AI-powered insights about your food. Discover calories, macros, and more with a single tap.',
+  openGraph: {
+    title: 'AI Food Scanner - GutSpy',
+    description:
+      'Snap a picture or upload your meal and get instant, AI-powered insights about your food. Discover calories, macros, and more with a single tap.',
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'AI Food Scanner - GutSpy',
+    description:
+      'Snap a picture or upload your meal and get instant, AI-powered insights about your food. Discover calories, macros, and more with a single tap.',
+  },
+  alternates: {
+    canonical: 'https://www.gutspy.com/features/ai-food-scanner',
+  },
+}
 
 export default function AIFoodScannerPage() {
   return (

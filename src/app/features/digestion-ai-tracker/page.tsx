@@ -1,5 +1,24 @@
 import { Layout } from '@/components/Layout'
+import { Metadata } from 'next'
 import Image from 'next/image'
+
+export const metadata: Metadata = {
+  title: 'Digestion AI Tracker - GutSpy',
+  description: 'Upload your digestion data for AI analysis and track your gut health over time. Get personalized insights and recommendations for your digestive health.',
+  openGraph: {
+    title: 'Digestion AI Tracker - GutSpy',
+    description: 'Upload your digestion data for AI analysis and track your gut health over time. Get personalized insights and recommendations for your digestive health.',
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Digestion AI Tracker - GutSpy',
+    description: 'Upload your digestion data for AI analysis and track your gut health over time. Get personalized insights and recommendations for your digestive health.',
+  },
+  alternates: {
+    canonical: 'https://www.gutspy.com/features/digestion-ai-tracker',
+  },
+}
 
 export default function DigestionAITrackerPage() {
   return (

@@ -1,5 +1,24 @@
 import { Layout } from '@/components/Layout'
+import { Metadata } from 'next'
 import Image from 'next/image'
+
+export const metadata: Metadata = {
+  title: 'Caloric Goals - GutSpy',
+  description: 'Set up daily caloric goals and monitor your intake easily. Stay motivated and on track with personalized targets and progress tracking.',
+  openGraph: {
+    title: 'Caloric Goals - GutSpy',
+    description: 'Set up daily caloric goals and monitor your intake easily. Stay motivated and on track with personalized targets and progress tracking.',
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Caloric Goals - GutSpy',
+    description: 'Set up daily caloric goals and monitor your intake easily. Stay motivated and on track with personalized targets and progress tracking.',
+  },
+  alternates: {
+    canonical: 'https://www.gutspy.com/features/caloric-goals',
+  },
+}
 
 export default function CaloricGoalsPage() {
   return (

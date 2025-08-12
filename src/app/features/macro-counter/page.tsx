@@ -1,5 +1,27 @@
 import { Layout } from '@/components/Layout'
+import { Metadata } from 'next'
 import Image from 'next/image'
+
+export const metadata: Metadata = {
+  title: 'Macro Counter - GutSpy',
+  description:
+    'Track calories and macronutrients for every meal you upload. Stay on top of your nutrition with detailed macro breakdowns and easy-to-read charts.',
+  openGraph: {
+    title: 'Macro Counter - GutSpy',
+    description:
+      'Track calories and macronutrients for every meal you upload. Stay on top of your nutrition with detailed macro breakdowns and easy-to-read charts.',
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Macro Counter - GutSpy',
+    description:
+      'Track calories and macronutrients for every meal you upload. Stay on top of your nutrition with detailed macro breakdowns and easy-to-read charts.',
+  },
+  alternates: {
+    canonical: 'https://www.gutspy.com/features/macro-counter',
+  },
+}
 
 export default function MacroCounterPage() {
   return (

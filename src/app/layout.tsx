@@ -71,6 +71,11 @@ export default function RootLayout({
             gtag('config', 'G-7B25LNWNJN');
           `}
         </Script>
+        <Script
+          src="https://analytics.ahrefs.com/analytics.js"
+          data-key="DhD4bC51DRR2TSFnXM4GdA"
+          strategy="afterInteractive"
+        />
       </head>
       <body>{children}</body>
     </html>

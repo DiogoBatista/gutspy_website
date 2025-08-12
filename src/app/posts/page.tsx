@@ -2,29 +2,8 @@ import client from '../../../tina/__generated__/client'
 import Link from 'next/link'
 import Image from 'next/image'
 
-// export default async function Page() {
-//   const { data } = await client.queries.postConnection()
-
-//   return (
-//     <>
-//       <h1>Posts</h1>
-//       <div>
-//         {data?.postConnection?.edges?.map((post) => (
-//           <div key={post?.node?._sys.filename}>
-//             <Link href={`/posts/${post?.node?._sys.filename}`}>
-//               {post?.node?._sys.filename}
-//             </Link>
-//           </div>
-//         ))}
-//       </div>
-//     </>
-//   )
-// }
-
 export default async function Page() {
   const { data } = await client.queries.postConnection()
-
-  console.log(data)
 
   return (
     <div className="bg-white py-24 sm:py-32">

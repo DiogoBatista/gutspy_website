@@ -70,7 +70,7 @@ export async function generateMetadata({
       images: [post.imageUrl || ''],
     },
     alternates: {
-      canonical: `${process.env.NEXT_PUBLIC_SITE_URL}/posts/${resolvedParams.filename.join('/')}`,
+      canonical: `https://www.gutspy.com/posts/${resolvedParams.filename.join('/')}`,
     },
   }
 }
@@ -113,7 +113,7 @@ export async function generateStaticParams() {
   const pages = await client.queries.postConnection()
   return (
     pages.data?.postConnection?.edges?.map((edge) => ({
-      filename: edge?.node?._sys.breadcrumbs,
+      filename: [edge?.node?._sys.filename || ''],
     })) || []
   )
 }

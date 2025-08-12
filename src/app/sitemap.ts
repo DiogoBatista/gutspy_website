@@ -15,7 +15,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const posts = await getAllPostSlugs() // This should return an array of post slugs
 
   // Base URL
-  const baseUrl = 'https://gutspy.com'
+  const baseUrl = 'https://www.gutspy.com'
 
   // Static routes
   const staticRoutes = [

@@ -11,7 +11,7 @@ title: 5 Signs Your Digestion Needs Help (And How to Track It)
 description: >-
   Learn the early warning signs of digestive issues and how a digestion tracker
   like Gutspy can help you improve gut health.
-date: 13/08/25
+date: '2025-08-13'
 author: GutSpy
 imageUrl: /5-signs.jpeg
 category: health

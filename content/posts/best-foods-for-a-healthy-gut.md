@@ -11,7 +11,7 @@ description: >-
   friendly species that strengthen immunity, tame inflammation and even sharpen
   mood. Processed, low‑fiber diets do the opposite. Put simply, your grocery
   cart may be the most powerful lever you have over long‑term health.
-date: 07/30/25
+date: '2025-07-30'
 author: GutSpy
 imageUrl: >-
   /colorful-assortment-healthy-foods-including-avocado-berries-nuts-seeds-grains-bowls-o_597121-39877.jpeg

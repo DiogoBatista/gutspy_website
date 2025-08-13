@@ -11,7 +11,7 @@ description: >-
   Discover how using a digestion tracker, stool tracker, or bowel movement
   tracker can improve gut health, identify food sensitivities, and support
   overall wellness.
-date: 08/11/25
+date: '2025-08-11'
 author: GutSpy
 imageUrl: /tracking-image.jpg
 category: health

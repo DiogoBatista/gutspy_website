@@ -5,7 +5,7 @@ description: >-
   shapes your immunity, mood, metabolism, and more. In this post, we explore the
   science behind the gut microbiome and share practical steps to improve your
   well-being through gut health.
-date: 07-02-2025
+date: '2025-02-07'
 author: GutSpy
 imageUrl: /gut-heatlh-person.png
 category: health

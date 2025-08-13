@@ -4,14 +4,37 @@ import Image from 'next/image'
 
 // Helper function to parse date strings in different formats
 function parseDate(dateString: string): Date {
-  // Handle format like "05-03-2025"
+  // Handle format like "05-03-2025" (DD-MM-YYYY)
   if (dateString.includes('-') && dateString.split('-')[0].length === 2) {
     const [day, month, year] = dateString.split('-')
     return new Date(parseInt(year), parseInt(month) - 1, parseInt(day))
   }
 
+  // Handle format like "13/08/25" (DD/MM/YY)
+  if (dateString.includes('/') && dateString.split('/').length === 3) {
+    const parts = dateString.split('/')
+    const day = parseInt(parts[0])
+    const month = parseInt(parts[1])
+    const year = parseInt(parts[2])
+
+    // Convert 2-digit year to 4-digit year (assuming 20xx for years 00-99)
+    const fullYear = year < 100 ? 2000 + year : year
+
+    return new Date(fullYear, month - 1, day)
+  }
+
   // Handle format like "2025-06-15" or "2025-06-15T00:00:00.000Z"
   return new Date(dateString)
+}
+
+// Helper function to format date for display
+function formatDateForDisplay(dateString: string): string {
+  const date = parseDate(dateString)
+  return date.toLocaleDateString('en-US', {
+    year: 'numeric',
+    month: 'long',
+    day: 'numeric',
+  })
 }
 
 // Helper function to check if a post is less than 1 weeks old
@@ -74,7 +97,9 @@ export default async function Page() {
               <div className="max-w-xl">
                 <div className="mt-8 flex items-center gap-x-4 text-xs">
                   <time dateTime={post?.node?.date} className="text-gray-500">
-                    {post?.node?.date}
+                    {post?.node?.date
+                      ? formatDateForDisplay(post.node.date)
+                      : ''}
                   </time>
                   <span className="rounded-full bg-gray-50 px-2 py-1 text-xs font-medium text-gray-600 ring-1 ring-inset ring-gray-900/10">
                     {(post?.node?.category ?? 'uncategorized')

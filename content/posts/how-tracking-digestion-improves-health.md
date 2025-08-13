@@ -13,7 +13,7 @@ description: >-
   overall wellness.
 date: '2025-08-11'
 author: GutSpy
-imageUrl: /tracking-image.jpg
+imageUrl: /tracking-graph.png
 category: health
 ---
 

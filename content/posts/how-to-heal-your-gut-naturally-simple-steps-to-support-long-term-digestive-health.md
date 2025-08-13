@@ -8,7 +8,7 @@ description: >-
   fixes. It covers what gut health means, common signs of imbalance, and
   practical strategies—from diet and stress reduction to probiotics, hydration,
   and sleep—plus how to track what works with GutSpy.
-date: 08/05/25
+date: '2025-05-08'
 author: GutSpy
 imageUrl: /kimchi-photo-130944.jpeg
 category: health

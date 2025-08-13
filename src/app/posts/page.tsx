@@ -14,11 +14,11 @@ function parseDate(dateString: string): Date {
   return new Date(dateString)
 }
 
-// Helper function to check if a post is less than 2 weeks old
+// Helper function to check if a post is less than 1 weeks old
 function isNewPost(dateString: string): boolean {
   const postDate = parseDate(dateString)
   const twoWeeksAgo = new Date()
-  twoWeeksAgo.setDate(twoWeeksAgo.getDate() - 14)
+  twoWeeksAgo.setDate(twoWeeksAgo.getDate() - 7)
   return postDate > twoWeeksAgo
 }
 
@@ -62,7 +62,7 @@ export default async function Page() {
                   priority={false}
                 />
                 <div className="absolute inset-0 rounded-2xl ring-1 ring-inset ring-gray-900/10" />
-                {/* New badge for posts less than 2 weeks old */}
+                {/* New badge for posts less than 1 weeks old */}
                 {post?.node?.date && isNewPost(post.node.date) && (
                   <div className="absolute right-3 top-3">
                     <span className="inline-flex items-center rounded-full bg-green-100 px-2.5 py-0.5 text-xs font-medium text-green-800 ring-1 ring-inset ring-green-600/20">

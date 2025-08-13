@@ -1,7 +1,5 @@
 ---
-title: >-
-  Why the Bristol Stool Form Scale Is the MVP of Gut-Health Tracking — and How
-  GutSpy Puts It to Work for You
+title: Why the Bristol Stool Form Scale Is the MVP of Gut-Health Tracking
 description: >-
   The seven-type Bristol Stool Form Scale turns your daily bathroom visit into a
   no-cost gut-health lab. Here’s why it matters and how GutSpy turns those data

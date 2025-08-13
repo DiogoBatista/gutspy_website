@@ -4,7 +4,7 @@ description: >-
   Tracking your bowel movements might seem like an odd endeavor, but think of it
   as your gut's report card. Each visit to the bathroom is a clue about your
   digestive health. What exactly should you track? Start with the basics:
-date: 08/04/25
+date: '2025-04-08'
 author: GutSpy
 imageUrl: /IBS.jpeg
 category: health

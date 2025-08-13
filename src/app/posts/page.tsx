@@ -2,8 +2,38 @@ import client from '../../../tina/__generated__/client'
 import Link from 'next/link'
 import Image from 'next/image'
 
+// Helper function to parse date strings in different formats
+function parseDate(dateString: string): Date {
+  // Handle format like "05-03-2025"
+  if (dateString.includes('-') && dateString.split('-')[0].length === 2) {
+    const [day, month, year] = dateString.split('-')
+    return new Date(parseInt(year), parseInt(month) - 1, parseInt(day))
+  }
+
+  // Handle format like "2025-06-15" or "2025-06-15T00:00:00.000Z"
+  return new Date(dateString)
+}
+
+// Helper function to check if a post is less than 2 weeks old
+function isNewPost(dateString: string): boolean {
+  const postDate = parseDate(dateString)
+  const twoWeeksAgo = new Date()
+  twoWeeksAgo.setDate(twoWeeksAgo.getDate() - 14)
+  return postDate > twoWeeksAgo
+}
+
 export default async function Page() {
   const { data } = await client.queries.postConnection()
+
+  // Sort posts by date (most recent first)
+  const sortedPosts =
+    data?.postConnection?.edges
+      ?.filter((post) => post?.node?.date) // Filter out posts without dates
+      ?.sort((a, b) => {
+        const dateA = parseDate(a?.node?.date || '')
+        const dateB = parseDate(b?.node?.date || '')
+        return dateB.getTime() - dateA.getTime() // Most recent first
+      }) || []
 
   return (
     <div className="bg-white py-24 sm:py-32">
@@ -17,7 +47,7 @@ export default async function Page() {
           </p>
         </div>
         <div className="mx-auto mt-16 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-3">
-          {data?.postConnection?.edges?.map((post) => (
+          {sortedPosts.map((post) => (
             <article
               key={post?.node?._sys.filename}
               className="flex flex-col items-start justify-between"
@@ -32,6 +62,14 @@ export default async function Page() {
                   priority={false}
                 />
                 <div className="absolute inset-0 rounded-2xl ring-1 ring-inset ring-gray-900/10" />
+                {/* New badge for posts less than 2 weeks old */}
+                {post?.node?.date && isNewPost(post.node.date) && (
+                  <div className="absolute right-3 top-3">
+                    <span className="inline-flex items-center rounded-full bg-green-100 px-2.5 py-0.5 text-xs font-medium text-green-800 ring-1 ring-inset ring-green-600/20">
+                      New
+                    </span>
+                  </div>
+                )}
               </div>
               <div className="max-w-xl">
                 <div className="mt-8 flex items-center gap-x-4 text-xs">
